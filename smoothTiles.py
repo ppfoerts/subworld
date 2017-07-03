@@ -40,7 +40,7 @@ if __name__ == "__main__":
         for y in range(0,width):
             r = random.randint(0,100)
             color = 'red'
-            if (r >= 50):
+            if (r >= 51):
                 color = 'green'
             else:
                 color = 'blue'
